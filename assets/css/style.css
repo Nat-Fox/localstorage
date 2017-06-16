@@ -2,6 +2,7 @@ body {
     background-image: url(../img/brooke-lark-275181.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #fomulario {

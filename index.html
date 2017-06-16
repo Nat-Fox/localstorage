@@ -12,13 +12,13 @@
 </head>
 
 <body>
+
     <div class="container">
-        <section id="formulario">
+        <div id="formulario">
             <div class="row">
                 <div class="col-lg-12 datos">
                     <div class="form-group">
                         <label for="usr">Name:</label>
-                        <!-- El id lo utilizaremos en el JS -->
                         <input type="text" class="form-control" id="nombre">
                     </div>
                 </div>
@@ -27,30 +27,26 @@
                 <div class="col-lg-12 datos">
                     <div class="form-group">
                         <label for="usr">Password:</label>
-                        <!-- El id lo utilizaremos en el JS -->
                         <input type="text" class="form-control" id="password">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <!-- Usaremos la funcion onclick en el js -->
-                    <button type="button" class="btn btn-primary" onclick="guardarDatos()" value="Guardar Datos">Guardar datos</button>
+                    <button type="button" class="btn btn-primary" onclick="guardarDatos()" value="Guardar datos">Guardar datos</button>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p id="datos">
-                        Pulsa para ver tu nombre y tu password.
-                    </p>
+                    <p id="datos">Pulsa para ver tu nombre y tu password.</p>
                     <button type="button" class="btn btn-primary" onclick="recuperarDatos()" value="Recuperar datos">Recuperar datos</button>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 
     <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
