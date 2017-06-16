@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
 }
 
-#fomulario {
+#formulario {
     margin: 15%;
     border-radius: 7px;
     padding: 5%;
@@ -29,3 +29,26 @@ body {
 .btn-primary {
     margin: 2%;
 }
+
+
+/*-----
+
+
+
+.form-group label {
+    color: #FFFFFF;
+}
+
+#datos {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+#data {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.btn-primary {
+    margin: 2%;
+}*/
